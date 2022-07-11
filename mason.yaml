@@ -3,11 +3,11 @@
 bricks:
   # Sample Brick
   # Run `mason make hello` to try it out.
-  atomic_feature:
-    path: bricks/atomic_feature
+  atomic_CSR_feature:
+    path: bricks/atomic_CSR_feature
 
-  CSR_atomic_feature_based_project_skeleton:
-    path: bricks/CSR_atomic_feature_based_project_skeleton
+  feature_based_skeleton:
+    path: bricks/feature_based_skeleton
   # Bricks can also be imported via git url.
   # Uncomment the following lines to import
   # a brick from a remote git url.

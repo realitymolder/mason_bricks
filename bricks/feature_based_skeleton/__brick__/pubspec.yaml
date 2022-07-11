@@ -1,4 +1,4 @@
-name: {{#project_package_name}}
+name: {{project_package_name}}
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to

@@ -1,4 +1,4 @@
-# just_for_the_lols
+# {{project_package_name}}
 
 A new Flutter project.
 
