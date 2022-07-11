@@ -1,7 +1,7 @@
 name: feature_based_skeleton
 description: A project template to fastly create a new flutter project with the atomic & feature based architecture. Starring Riverpod state management & Controller->Service->Repository stracture.
 
-version: 0.1.1+2
+version: 0.1.0+1
 
 environment:
   mason: '>=0.1.0-dev.26 <0.1.0'

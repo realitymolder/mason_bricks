@@ -1,5 +1,5 @@
 name: atomic_CSR_feature
-description: A new brick created with the Mason CLI.
+description: A template to fastly deploy a new feature under the Feature Based project using the atomic design method.
 
 version: 0.1.0+1
 
