@@ -1,6 +1,9 @@
 # Atomic C(ontroller) S(ervice) R(epository) Feature
 
-A template to fastly deploy a new feature under the Feature Based project using the atomic design method.
+A template to fastly deploy a new feature under the Feature Based project brick (of course you can use it without the "first" brick) This brick is using the atomic design pattern and the Controller Service Repository pattern. <br>
+<b>NOTE: </b>We are using riverpod as a state management solution in this example. But, since this is a CSR patterned feature, you can remove the example and bring your own state management solution.
+
+Enjoy!
 
 ## How to use: 🧾
 
