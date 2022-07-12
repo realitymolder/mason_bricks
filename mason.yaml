@@ -1,5 +1,5 @@
 bricks:
   feature_based_skeleton:
-    path: bricks/feature_based_skeleton
+    path: ./bricks/feature_based_skeleton
   atomic_CSR_feature:
-    path: bricks/atomic_CSR_feature
+    path: ./bricks/atomic_CSR_feature

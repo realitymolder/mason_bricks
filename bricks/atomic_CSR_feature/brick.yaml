@@ -10,5 +10,11 @@ vars:
   feature:
     type: string
     description: Feature Name
-    default: Auth
-    prompt: What is the new feature name?
+    default: auth
+    prompt: What is the new feature name? (write in lowercase)
+
+  project_name:
+    type: string
+    description: Project Name
+    default: redhat
+    prompt: What is the name of the project? (write in lowercase)

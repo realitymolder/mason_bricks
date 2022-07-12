@@ -15,7 +15,7 @@ mason make feature_based_skeleton
 | Variable               | Description                     | Default     | Type     |
 | ---------------------- | ------------------------------- | ----------- | -------- |
 | `package_name` | The name of the project package | flutter_app | `string` |
-| `project_title`        | The name of the project         | CoolApp     | `string` |
+| `project_name`        | The name of the project         | CoolApp     | `string` |
 
 ## Output 🏠
 

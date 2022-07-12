@@ -3,17 +3,17 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 
-final communitiesServiceProvider =
+final {{feature}}ServiceProvider =
     Provider.autoDispose<{{feature.pascalCase()}}Service>((ref) {
-  return TeepulCommunitiesSerivce(ref);
+  return {{project_name.pascalCase()}}{{feature.pascalCase()}}Serivce(ref);
 });
 
 abstract class {{feature.pascalCase()}}Service {
   // todo: abstract functions
 }
 
-class Project{{feature.pascalCase()}}Service implements {{feature.pascalCase()}}Service {
-  Project{{feature.pascalCase()}}Service(
+class {{project_name.pascalCase()}}{{feature.pascalCase()}}Service implements {{feature.pascalCase()}}Service {
+  {{project_name.pascalCase()}}{{feature.pascalCase()}}Service(
     this.ref,
   );
   final AutoDisposeRef ref;

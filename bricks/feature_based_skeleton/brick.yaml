@@ -13,8 +13,8 @@ vars:
     default: flutter_app
     prompt: What is the Package Name?
 
-  project_title:
+  project_name:
     type: string
-    description: Project Title
+    description: Project Name
     default: CoolApp
     prompt: What is the Project Name?
