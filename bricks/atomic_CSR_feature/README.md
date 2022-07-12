@@ -5,7 +5,7 @@ A template to fastly deploy a new feature under the Feature Based project using 
 ## How to use: 🧾
 
 ```
-mason make atomic_CSR_feature
+mason make atomic_csr_feature
 ```
 
 ## Variables: ⚙️

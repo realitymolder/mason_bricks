@@ -1,4 +1,4 @@
-name: atomic_CSR_feature
+name: atomic_csr_feature
 description: A template to fastly deploy a new feature under the Feature Based project using the atomic design method.
 
 version: 0.1.0+1
