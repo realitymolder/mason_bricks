@@ -1,9 +1,7 @@
-# features
+# Features
 
 ## What Should Be Here?
 
-```
-FEATURES!
 
 Every Feature in the app should get its own folder. This is A feature based Project Management tool after all! 😛
 
@@ -15,7 +13,6 @@ Know that this stracture is also implementing the Atomic Design for further conv
 
 So, what now? 
 
-mason make atomic_feature
-
-
+```
+mason make feature_based_skeleton
 ```

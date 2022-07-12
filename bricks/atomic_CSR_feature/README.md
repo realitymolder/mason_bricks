@@ -15,28 +15,29 @@ mason make atomic_CSR_feature
 | `feature` | Feature Name | Auth | `string` |
 
 ## Output 🏠
-
 ```
---project_name app
-├── app_ui
-│   ├── assets
-│   │   └── fonts
-│   │   │   └── .ttfs
-│   ├── lib
-│   │   ├── src
-│   │   │   ├── layout
-│   │   │   │   ├── breakpoints.dart
-│   │   │   │   └── layout.dart
-│   │   │   ├── typography
-│   │   │   │   ├── font_weights.dart
-│   │   │   │   ├── text_styles.dart
-│   │   │   │   └── typography.dart
-│   │   │   ├── widgets
-│   │   │   │   ├── responsive_layout_builder.dart
-│   │   │   │   └── widgets.dart
-│   │   │   ├── colors.dart
-│   │   │   └── theme.dart
-│   │   └── app_ui.dart
+features (folder)
+├── feature_name
+    
+│   ├──── widgets
+│   │     ├── atoms
+│   │     ├── molecules
+│   │     ├── organisms
+│   │     └── pages
+│   ├──── feature_model 
+│   │     ├── feature_model.dart
+│   │     ├── feature_model.freezed.dart
+│   │     └── feature_model.g.dart
+├─────────  
+├────
+│  
+│ 
+│  
+│  
+│   │  
+│   │ 
+│   │  
+│   │  
 │   └──
 └── ...
 ```

@@ -7,11 +7,11 @@ environment:
   mason: '>=0.1.0-dev.26 <0.1.0'
 
 vars:
-  project_package_name:
+  package_name:
     type: string
     description: Project Package Name
     default: flutter_app
-    prompt: What is the Package Name? (flutter_app)
+    prompt: What is the Package Name?
 
   project_title:
     type: string

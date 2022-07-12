@@ -1,4 +1,4 @@
-# {{project_package_name}}
+# {{package_name}}
 
 A new Flutter project.
 
