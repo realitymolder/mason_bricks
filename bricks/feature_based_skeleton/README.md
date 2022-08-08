@@ -1,13 +1,15 @@
 # Feature Based Skeleton
 
-A project template to fastly create a new flutter project with
-the atomic & feature based architecture. Starring Riverpod state management
-and Repository -> Service -> Controller-> stracture.
+A project template for busy developers to fastly create a new flutter project using
+the atomic & CSR (Controller Service Repository) feature brick design. Dependencies: flutter_riverpod, freezed class generation, json serializable, build runner.
+
+After deploying this brick, check the [Atomic CSR Feature](https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_csr_feature) and deploy it inside the "features" folder to easily deploy new features.
+
 
 ## How to use 🧾
 
 ```
-mason make feature_based_skeleton
+mason add feature_based_skeleton && mason make feature_based_skeleton
 ```
 
 ## Variables ⚙️
@@ -24,17 +26,19 @@ assets/
 lib/
 ├─ core/
 │  ├─ shared/
+│  │  ├─ shared stuff
 │  ├─ widgets/
+│  │  ├─ core widgets of the app
 │  ├─ project_name_app.dart
 │  ├─ project_name_core.dart
 ├─ theme/
 │  ├─ color_schemes.dart
 │  ├─ project_name_theme.dart
-├─ routes/
 ├─ features/
+├─ routes/
 ├─ main.dart
 test/
-├─ test_widgets_go_here
+├─ test widgets
 analysis_options.yaml
 package_name.iml
 pubspec.yaml
