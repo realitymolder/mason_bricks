@@ -2,7 +2,9 @@
 
 - fixed imports
 - fixed typos
-- skeleton brick is now available
+- skeleton brick is now available at: [Feature Based Skeleton](https://github.com/realitymolder/mason_bricks/tree/main/bricks/feature_based_skeleton)
+
+ if there are any issues with the brick, please open a ticket using the "issues" feature of the github project.
 
 # 0.1.2+3
 

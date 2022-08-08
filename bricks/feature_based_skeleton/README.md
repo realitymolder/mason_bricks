@@ -12,6 +12,8 @@ After deploying this brick, check the [Atomic CSR Feature](https://github.com/re
 mason add feature_based_skeleton && mason make feature_based_skeleton
 ```
 
+Dont forget to run `flutter pub get` after deploying the brick / new project.
+
 ## Variables ⚙️
 
 | Variable               | Description                     | Default     | Type     |

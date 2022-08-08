@@ -1,15 +1,23 @@
 # Atomic C(ontroller) S(ervice) R(epository) Feature
 
-A template to fastly deploy a new feature under the Feature Based project brick (of course you can use it without the "first" brick) This brick is using the atomic design pattern and the Controller Service Repository pattern. <br>
-<b>NOTE: </b>We are using riverpod as a state management solution in this example. But, since this is a CSR patterned feature, you can remove the example and bring your own state management solution.
+A template for busy developers to fastly deploy a new feature under the [Feature Based Skeleton](https://github.com/realitymolder/mason_bricks/tree/main/bricks/feature_based_skeleton) (of course you can use this brick without the skeleton brick) This brick is using atomic design & Controller Service Repository pattern.
 
-Enjoy!
+<b>NOTE: </b>
+1. We are using riverpod as a state management solution in this example. But, since this is a CSR patterned feature, you can change the state management in the example and bring your own state management solution.
+2. The theme file & the domain-model file might have exceptions because they depend on firestore & google fonts dependencies. If you want them to work out of the box, add these dependencies. 
+
+Fun coding!
 
 ## How to use: 🧾
+cd into the features folder of the project and execute:
 
 ```
-mason make atomic_csr_feature
+mason add atomic_csr_feature && mason make atomic_csr_feature
 ```
+after the brick has been layed, execute for freezed code generation:
+`
+flutter pub run build_runner watch --delete-conflicting-outputs
+`
 
 ## Variables: ⚙️
 
