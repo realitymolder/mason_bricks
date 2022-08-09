@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chat_auth/features/{{feature_folder_name}}/{{feature}}_state/{{feature}}_state.dart';
+import '{{feature}}_state/{{feature}}_state.dart';
 
 final {{feature}}ControllerProvider =
     StateNotifierProvider<{{feature.pascalCase()}}Controller, {{feature.pascalCase()}}State>(

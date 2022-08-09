@@ -1,5 +1,5 @@
 name: feature_based_skeleton
-description: A project template to fastly create a new flutter project with the atomic & feature based architecture. Starring Riverpod state management & Controller->Service->Repository stracture.
+description: A project template for busy developers to fastly create a new flutter project using the atomic & CSR feature brick design.
 version: 0.2.0+1
 
 vars:
