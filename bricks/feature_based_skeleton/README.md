@@ -20,40 +20,25 @@ mason make feature_based_skeleton
 ## Output 🏠
 
 ```
-features/
-├─ feature_folder_name/
-│  ├─ feature_state/
-│  │  ├─ feature_state.dart
-│  │  ├─ feature_state.freezed.dart
-│  ├─ domain/
-│  │  ├─ feature_model/
-│  │  │  ├─ feature_model.dart
-│  │  │  ├─ feature_model.freezed.dart
-│  │  │  ├─ feature_model.g.dart
+assets/
+lib/
+├─ core/
+│  ├─ shared/
 │  ├─ widgets/
-│  │  ├─ atoms
-│  │  ├─ molecules
-│  │  ├─ organisms
-│  │  ├─ pages
-│  ├─ feature_controller.dart
-│  ├─ feature_repository.dart
-│  ├─ feature_service.dart
-...
-
-features
-├─ feature_folder_name
-│  ├─ feature_controller.dart
-│  ├─ feature_service.dart
-│  ├─ feature_repository.dart
-│  ├─ feature_model
-│  │  ├─ feature_model.dart
-│  │  ├─ feature_model.g.dart
-│  │  ├─ feature_model.freezed.dart
-│  ├─ widgets
-│  │  ├─ atoms
-│  │  ├─ molecules
-│  │  ├─ organisms
-│  │  ├─ pages
+│  ├─ project_name_app.dart
+│  ├─ project_name_core.dart
+├─ theme/
+│  ├─ color_schemes.dart
+│  ├─ project_name_theme.dart
+├─ routes/
+├─ features/
+├─ main.dart
+test/
+├─ test_widgets_go_here
+analysis_options.yaml
+package_name.iml
+pubspec.yaml
+README.md
 ...
 
 ```
