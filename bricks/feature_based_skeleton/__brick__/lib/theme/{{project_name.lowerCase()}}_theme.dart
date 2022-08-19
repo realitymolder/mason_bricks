@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:libremart/theme/color_schemes.dart';
+import 'color_schemes.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class {{project_name}}Theme {

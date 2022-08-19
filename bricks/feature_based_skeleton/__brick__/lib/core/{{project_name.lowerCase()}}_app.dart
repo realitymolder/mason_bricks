@@ -1,5 +1,5 @@
-import 'package:butterfly_chat/core/butterflychat_app.dart';
-import 'package:butterfly_chat/theme/butterfly_theme.dart';
+import 'package:{{package_name}}/core/{{project_name.lowerCase()}}_app.dart';
+import 'package:{{package_name}}/theme/{{project_name.lowerCase()}}_theme.dart';
 import 'package:flutter/material.dart';
 
 class {{project_name}}Core extends StatelessWidget {
