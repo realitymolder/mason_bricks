@@ -20,8 +20,28 @@ mason make feature_based_skeleton
 ## Output 🏠
 
 ```
+features/
+├─ feature_folder_name/
+│  ├─ feature_state/
+│  │  ├─ feature_state.dart
+│  │  ├─ feature_state.freezed.dart
+│  ├─ domain/
+│  │  ├─ feature_model/
+│  │  │  ├─ feature_model.dart
+│  │  │  ├─ feature_model.freezed.dart
+│  │  │  ├─ feature_model.g.dart
+│  ├─ widgets/
+│  │  ├─ atoms
+│  │  ├─ molecules
+│  │  ├─ organisms
+│  │  ├─ pages
+│  ├─ feature_controller.dart
+│  ├─ feature_repository.dart
+│  ├─ feature_service.dart
+...
+
 features
-├─ feature_name
+├─ feature_folder_name
 │  ├─ feature_controller.dart
 │  ├─ feature_service.dart
 │  ├─ feature_repository.dart
