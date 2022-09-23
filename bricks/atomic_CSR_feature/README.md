@@ -15,21 +15,23 @@ mason make atomic_csr_feature
 
 | Variable               | Description                     | Default     | Type     |
 | ---------------------- | ------------------------------- | ----------- | -------- |
+| `feature_folder_name` | Feature Folder Name | auth_flow | `string` |
 | `feature` | Feature Name | auth | `string` |
-| `project_name` | Project Name | redhat | `string` |
+| `project_name` | Project Name | skyChat | `string` |
 
 ## Output: 🏠
 ```
-features
-├─ feature_name
-│  ├─ feature_model
-│  │  ├─ feature_model.dart
-│  │  ├─ feature_model.freezed.dart
-│  │  ├─ feature_model.g.dart
-│  ├─ feature_state
+features/
+├─ feature_folder_name/
+│  ├─ feature_state/
 │  │  ├─ feature_state.dart
 │  │  ├─ feature_state.freezed.dart
-│  ├─ widgets
+│  ├─ domain/
+│  │  ├─ feature_model/
+│  │  │  ├─ feature_model.dart
+│  │  │  ├─ feature_model.freezed.dart
+│  │  │  ├─ feature_model.g.dart
+│  ├─ widgets/
 │  │  ├─ atoms
 │  │  ├─ molecules
 │  │  ├─ organisms
@@ -38,4 +40,3 @@ features
 │  ├─ feature_repository.dart
 │  ├─ feature_service.dart
 ...
-```
