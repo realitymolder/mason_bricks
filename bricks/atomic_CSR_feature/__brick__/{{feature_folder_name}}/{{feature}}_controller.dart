@@ -1,13 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:chat_auth/features/{{feature_folder_name}}/{{feature}}_state/{{feature}}_state.dart';
 
 final {{feature}}ControllerProvider =
     StateNotifierProvider<{{feature.pascalCase()}}Controller, {{feature.pascalCase()}}State>(
         (ref) {
   return {{feature.pascalCase()}}Controller(
-    const {{feature.pascalCase()}}State(
-      
-    ),
+    {{feature.pascalCase()}}State.initial(),
     ref,
   );
 });
@@ -21,6 +19,6 @@ class {{feature.pascalCase()}}Controller extends StateNotifier<{{feature.pascalC
   }
 
   final Ref ref;
-  
+
   //todo: put your functions here
 }

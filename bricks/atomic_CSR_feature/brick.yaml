@@ -1,6 +1,6 @@
 name: atomic_csr_feature
 description: A template to fastly deploy a new feature under the Feature Based project using the atomic design method.
-version: 0.1.2+3
+version: 0.2.0+4
 repository: https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_CSR_feature
 
 vars:

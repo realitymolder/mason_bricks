@@ -1,3 +1,5 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 part '{{feature}}_model.freezed.dart';
 part '{{feature}}_model.g.dart';
 
@@ -17,7 +19,7 @@ class {{feature.pascalCase()}} with _${{feature.pascalCase()}} {
 
   factory {{feature.pascalCase()}}.fromDocument(DocumentSnapshot doc) {
     final data = doc.data()! as Map<String, dynamic>;
-    return {{feature.pascalCase()}}.fromJson(data).copyWith(communityId: doc.id);
+    return {{feature.pascalCase()}}.fromJson(data).copyWith({{feature}}Id: doc.id);
   }
 
   Map<String, dynamic> toDocument() => toJson();
