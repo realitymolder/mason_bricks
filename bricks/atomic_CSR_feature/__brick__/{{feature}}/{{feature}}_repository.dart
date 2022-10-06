@@ -11,8 +11,8 @@ abstract class {{feature.pascalCase()}}Repository {
 }
 
 class {{project_name.pascalCase()}}{{feature.pascalCase()}}Repository implements {{feature.pascalCase()}}Repository {
-  {{project_name.pascalCase()}}{{feature.pascalCase()}}Repository({required this.read});
-  final Reader read;
+  {{project_name.pascalCase()}}{{feature.pascalCase()}}Repository({required this.ref});
+  final Ref ref;
 
   // todo: implement abstract functions
 }

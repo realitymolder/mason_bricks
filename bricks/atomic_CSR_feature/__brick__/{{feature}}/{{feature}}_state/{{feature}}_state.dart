@@ -1,5 +1,7 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part '{{feature}}_state.freezed.dart';
+
 
 @freezed
 class {{feature.pascalCase()}}State with _${{feature.pascalCase()}}State {

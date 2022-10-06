@@ -2,25 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final {{feature}}ControllerProvider =
-    StateNotifierProvider.autoDispose<{{feature.pascalCase()}}Controller, {{feature.pascalCase()}}State>(
+    StateNotifierProvider<{{feature.pascalCase()}}Controller, {{feature.pascalCase()}}State>(
         (ref) {
   return {{feature.pascalCase()}}Controller(
     const {{feature.pascalCase()}}State(
       
     ),
-    ref.watch,
+    ref,
   );
 });
 
 class {{feature.pascalCase()}}Controller extends StateNotifier<{{feature.pascalCase()}}State> {
   {{feature.pascalCase()}}Controller(
     {{feature.pascalCase()}}State state,
-    this._read,
+    this.ref,
   ) : super(state) {
   // todo: init first function
   }
 
-  final Reader _read;
+  final Ref ref;
 
   //todo: put your functions here
 }

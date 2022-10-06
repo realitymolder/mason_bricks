@@ -4,8 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 
 final {{feature}}ServiceProvider =
-    Provider.autoDispose<{{feature.pascalCase()}}Service>((ref) {
-  return {{project_name.pascalCase()}}{{feature.pascalCase()}}Serivce(ref);
+    Provider<{{feature.pascalCase()}}Service>((ref) {
+  return {{project_name.pascalCase()}}{{feature.pascalCase()}}Service(ref);
 });
 
 abstract class {{feature.pascalCase()}}Service {
@@ -16,7 +16,7 @@ class {{project_name.pascalCase()}}{{feature.pascalCase()}}Service implements {{
   {{project_name.pascalCase()}}{{feature.pascalCase()}}Service(
     this.ref,
   );
-  final AutoDisposeRef ref;
+  final Ref ref;
 
     // todo: implement abstract functions
 
