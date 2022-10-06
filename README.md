@@ -15,7 +15,7 @@ A collection of my mason bricks that hopefully will help developers to be more p
 
 ## Documentation
 
-- [Feature Based Skeleton](https://github.com/realitymolder/mason_bricks/tree/main/bricks/feature_based_skeleton)
+- [Feature Based Skeleton](https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_CSR_feature)
 - [Atomic CSR Feature](https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_csr_feature)
 
 
