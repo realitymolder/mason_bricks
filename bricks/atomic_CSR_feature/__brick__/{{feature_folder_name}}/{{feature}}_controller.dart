@@ -21,6 +21,6 @@ class {{feature.pascalCase()}}Controller extends StateNotifier<{{feature.pascalC
   }
 
   final Ref ref;
-
+  
   //todo: put your functions here
 }

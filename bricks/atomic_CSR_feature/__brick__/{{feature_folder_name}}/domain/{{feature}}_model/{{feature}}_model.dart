@@ -20,6 +20,6 @@ class {{feature.pascalCase()}} with _${{feature.pascalCase()}} {
     return {{feature.pascalCase()}}.fromJson(data).copyWith(communityId: doc.id);
   }
 
-  Map<String, dynamic> toDocument() => toJson()..remove('id');
+  Map<String, dynamic> toDocument() => toJson();
 
 }

@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final {{feature}}RepositoryProvider = Provider<{{feature.pascalCase()}}Repository>((ref) {
   //final dio = ref.watch(dioProvider);
-  return {{project_name.pascalCase()}}{{feature.pascalCase()}}Repository(read: ref.read);
+  return {{project_name.pascalCase()}}{{feature.pascalCase()}}Repository(ref: ref);
 });
 
 abstract class {{feature.pascalCase()}}Repository {

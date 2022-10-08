@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part '{{feature}}_state.freezed.dart';
@@ -9,6 +10,11 @@ class {{feature.pascalCase()}}State with _${{feature.pascalCase()}}State {
 
   const factory {{feature.pascalCase()}}State({
     required String userName,
-    required AsyncValue<List<User>> users,
   }) = _{{feature.pascalCase()}}State;
+
+factory {{feature.pascalCase()}}State.initial(){
+  return const {{feature.pascalCase()}}State(
+      userName: 'userName',
+    );
+  }
 }

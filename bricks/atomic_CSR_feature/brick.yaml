@@ -1,17 +1,21 @@
 name: atomic_csr_feature
 description: A template to fastly deploy a new feature under the Feature Based project using the atomic design method.
-version: 0.1.1+2
-repository: https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_csr_feature
+version: 0.1.2+3
+repository: https://github.com/realitymolder/mason_bricks/tree/main/bricks/atomic_CSR_feature
 
 vars:
+  feature_folder_name:
+    type: string
+    description: Feature Folder Name
+    default: auth_flow
+    prompt: What is the new feature folder name? (if more than 1 word seperate with underscore)
   feature:
     type: string
     description: Feature Name
     default: auth
     prompt: What is the new feature name? (write in lowercase)
-
   project_name:
     type: string
     description: Project Name
-    default: redhat
-    prompt: What is the name of the project? (write in lowercase)
+    default: skyChat
+    prompt: What is the name of the project? (write in pascalCase)
