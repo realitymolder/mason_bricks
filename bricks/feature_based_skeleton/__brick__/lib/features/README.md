@@ -14,5 +14,5 @@ Know that this stracture is also implementing the Atomic Design for further conv
 So, what now? 
 
 ```
-mason make feature_based_skeleton
+mason make atomic_csr_feature
 ```
