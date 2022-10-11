@@ -12,6 +12,15 @@ A collection of my mason bricks that hopefully will help developers to be more p
 
 ---
 
+## Bricks 🧱
+
+| Brick                                                                | Description                                                                                                                   | Version |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [feature_based_skeleton](https://brickhub.dev/bricks/feature_based_skeleton)                     | Fastly create a new flutter project using the atomic & CSR feature brick design.      | 0.5.0   |
+| [atomic_csr_feature](brickhub.dev/bricks/atomic_csr_feature)     | A template for busy developers to fastly deploy a new feature under the Feature Based Skeleton.                                         | 0.6.0   |
+| WIP                                                   | 📐                                                                                                               | N/A     |
+
+
 
 ## Documentation
 

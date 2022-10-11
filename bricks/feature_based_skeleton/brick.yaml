@@ -1,6 +1,7 @@
 name: feature_based_skeleton
 description: Fastly create a new flutter project using the atomic & CSR feature brick design.
 version: 0.2.0+1
+repository: https://github.com/realitymolder/mason_bricks/tree/main/bricks/feature_based_skeleton
 
 vars:
   package_name:
